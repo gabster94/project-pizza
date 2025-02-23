@@ -103,7 +103,7 @@ if (mealSelection === '1') {
 let age = prompt(`${name.toUpperCase()}, to ensure you get full by your meal we would like to know your age. Please, type in your age and click 'OK'`)
 
 
-if (age > 12) {g
+if (age > 12) {
   age = 'Adult sized, 120kr'
   alert(`You will be delivered an Adult sized ${subChoice}`)
   // If the age is greater than 12 the meal will become adult sized 120kr
